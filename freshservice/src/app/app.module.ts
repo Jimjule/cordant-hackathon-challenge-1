@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FreshButKeenComponent } from './fresh-but-keen/fresh-but-keen.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FreshButKeenComponent
   ],
   imports: [
     BrowserModule,
